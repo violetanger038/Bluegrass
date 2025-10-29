@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+#nav{
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    position:fixed;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    z-index: 5;
+
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-size: 1.5vw;
+    width: 25vw;
+    height: 5vh;
+    margin-left:5vw ;
+    margin-right: 5vw;
+    border: none;
+}
+#logo{
+    width: 30vw;
+}
+
+#main{
+    display: grid;
+    grid-template-areas: 
+    '1'
+    '2'
+    '3';
+    color: white;
+    font-size: 5vw;
+    position:relative;
+    top:5vh
+ 
+}
+#text{
+    z-index: 2;
+    position: static;
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image:url(premium_photo-1757976211084-0af08f46da96.avif) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    position: sticky;
+    top:1vw ;
+    z-index: 1;
+}
+#itext{
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+}
+#dirt{
+    display: flex;
+    flex-direction: row;
+    background-color:transparent;
+    align-items: flex-end;
+    justify-content: center;
+    background-size:100% ;
+    z-index: 3;
+  
+  
+}
+#form{
+    position: relative;
+    left:15vw ;
+    display: flex;
+    flex-direction: column;
+    border: black solid;
+    color: black;
+    font-size:3vw ;
+    background-color: white;
+    width: 70vw;
+    padding: 10px;
+    z-index: 4;
+    align-items: flex-end;
+    height:70vh ;
+    width: 50vw;
+    margin: 10vw;
+}
+.imput{
+    height: 30px;
+    width: 300px;
+}
+label{
+    position: relative;
+    top:35px;
+    left: -310px;
+
+}
+h3{
+    align-self: center;
+}
+
